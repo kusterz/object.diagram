@@ -1,0 +1,718 @@
+body {
+  background-color: black;
+  margin: 0;
+  cursor: -webkit-grab; cursor: grab;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+img {
+
+  width: 100%;
+}
+
+@-webkit-keyframes spin1 {
+  from { -webkit-transform: rotateY(0); }
+  to   { -webkit-transform: rotateY(-360deg); }
+}
+
+img:hover {
+animation-play-state: paused;
+}
+
+video {
+  animation: spin1 2s infinite linear;
+}
+
+video:hover {
+animation-play-state: paused;
+}
+
+
+.video {
+height: 330px;
+width: 600px;
+margin-bottom: 50px;
+}
+
+.hans1 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  z-index: 4;
+  animation: spin1 7s infinite linear;
+}
+.hans1:hover {
+animation-play-state: paused;
+}
+
+.hans2 {
+  width: 10%;
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  z-index: 5;
+  animation: spin1 5s infinite linear;
+}
+.hans2:hover {
+animation-play-state: paused;
+}
+
+.hans3 {
+  width: 50%;
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  z-index: 4;
+  animation: spin1 5s infinite linear;
+}
+.hans3:hover {
+animation-play-state: paused;
+}
+
+.hans4 {
+  width: 30%;
+  position: absolute;
+  left: 65%;
+  top: 10%;
+  z-index: 3;
+  animation: spin1 7s infinite linear;
+}
+.hans4:hover {
+animation-play-state: paused;
+}
+
+.hans5 {
+  width: 25%;
+  position: absolute;
+  left: 55%;
+  top: 25%;
+  z-index: 4;
+  animation: spin1 1s infinite linear;
+}
+.hans5:hover {
+animation-play-state: paused;
+}
+.hans6 {
+  width: 15%;
+  position: absolute;
+  left: 60%;
+  top: 30%;
+  z-index: 4;
+  animation: spin1 1s infinite linear;
+}
+.hans6:hover {
+animation-play-state: paused;
+}
+.hans7 {
+  width: 15%;
+  position: absolute;
+  left: 60%;
+  top: 30%;
+  z-index: 4;
+  animation: spin1 3s infinite linear;
+}
+.hans7:hover {
+animation-play-state: paused;
+}
+.hans8 {
+  width: 10%;
+  position: absolute;
+  left: 80%;
+  top: 30%;
+  z-index: 4;
+  animation: spin1 5s infinite linear;
+}
+.hans8:hover {
+animation-play-state: paused;
+}
+.hans9 {
+  width: 10%;
+  position: absolute;
+  left: 80%;
+  top: 5%;
+  z-index: 3;
+  animation: spin1 5s infinite linear;
+}
+.hans9:hover {
+animation-play-state: paused;
+}
+.hans10 {
+  width: 25%;
+  position: absolute;
+  left: 90%;
+  top: 0%;
+  z-index: 3;
+  animation: spin1 5s infinite linear;
+}
+.hans10:hover {
+animation-play-state: paused;
+}
+.hans11 {
+  width: 25%;
+  position: absolute;
+  left: 70%;
+  top: 0%;
+  z-index: 2;
+  animation: spin1 10s infinite linear;
+}
+.hans11:hover {
+animation-play-state: paused;
+}
+.hans12 {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  z-index: 2;
+  animation: spin1 15s infinite linear;
+}
+.hans12:hover {
+animation-play-state: paused;
+}
+.hans13 {
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  z-index: 3;
+  animation: spin1 20s infinite linear;
+}
+.hans13:hover {
+animation-play-state: paused;
+}
+.hans14 {
+  width: 50%;
+  position: absolute;
+  left: 80%;
+  top: 0%;
+  z-index: 2;
+  animation: spin1 20s infinite linear;
+}
+.hans14:hover {
+animation-play-state: paused;
+}
+.hans15 {
+  width: 25%;
+  position: absolute;
+  left: 80%;
+  top: 0%;
+  z-index: 6;
+  animation: spin1 20s infinite linear;
+}
+.hans15:hover {
+animation-play-state: paused;
+}
+
+.hans16 {
+  width: 25%;
+  position: absolute;
+  left: 80%;
+  top: 0%;
+  z-index: 2;
+  animation: spin1 20s infinite linear;
+}
+.hans16:hover {
+animation-play-state: paused;
+}
+.hans17 {
+  width: 25%;
+  position: absolute;
+  left: 80%;
+  top: 70%;
+  z-index: 2;
+  animation: spin1 20s infinite linear;
+}
+.hans17:hover {
+animation-play-state: paused;
+}
+.hans18 {
+  width: 15%;
+  position: absolute;
+  left: 75%;
+  top: 80%;
+  z-index: 3;
+  animation: spin1 10s infinite linear;
+}
+.hans18:hover {
+animation-play-state: paused;
+}
+.hans19 {
+  width: 50%;
+  position: absolute;
+  left: 75%;
+  top: 80%;
+  z-index: 2;
+  animation: spin1 5s infinite linear;
+}
+.hans19:hover {
+animation-play-state: paused;
+}
+.hans20 {
+  width: 30%;
+  position: absolute;
+  left: 65%;
+  top: 80%;
+  z-index: 4;
+  animation: spin1 1s infinite linear;
+}
+.hans20:hover {
+animation-play-state: paused;
+}
+.hans21 {
+  width: 20%;
+  position: absolute;
+  left: 65%;
+  top: 65%;
+  z-index: 3;
+  animation: spin1 10s infinite linear;
+}
+.hans21:hover {
+animation-play-state: paused;
+}
+.hans22 {
+  width: 20%;
+  position: absolute;
+  left: 70%;
+  top: 65%;
+  z-index: 3;
+  animation: spin1 10s infinite linear;
+}
+.hans22:hover {
+animation-play-state: paused;
+}
+.hans23 {
+  width: 10%;
+  position: absolute;
+  left: 85%;
+  top: 60%;
+  z-index: 4;
+  animation: spin1 7s infinite linear;
+}
+.hans23:hover {
+animation-play-state: paused;
+}
+.hans24 {
+  width: 10%;
+  position: absolute;
+  left: 95%;
+  top: 85%;
+  z-index: 4;
+  animation: spin1 7s infinite linear;
+}
+.hans24:hover {
+animation-play-state: paused;
+}
+.hans25 {
+  width: 15%;
+  position: absolute;
+  left: 95%;
+  top: 60%;
+  z-index: 4;
+  animation: spin1 7s infinite linear;
+}
+.hans25:hover {
+animation-play-state: paused;
+}
+.hadid {
+  width: 15%;
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  z-index: 4;
+  animation: spin1 15s infinite linear;
+}
+.hadid:hover {
+animation-play-state: paused;
+}
+.drawing {
+  width: 15%;
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  z-index: 5;
+  animation: spin1 15s infinite linear;
+}
+.drawing:hover {
+animation-play-state: paused;
+}
+.drawing2 {
+  width: 15%;
+  position: absolute;
+  left: 15%;
+  top: 55%;
+  z-index: 5;
+  animation: spin1 12s infinite linear;
+}
+.drawing2:hover {
+animation-play-state: paused;
+}
+.drawing3 {
+  width: 35%;
+  position: absolute;
+  left: 15%;
+  top: 55%;
+  z-index: 5;
+  animation: spin1 20s infinite linear;
+}
+.drawing3:hover {
+animation-play-state: paused;
+}
+.drawing4 {
+  width: 35%;
+  position: absolute;
+  left: 15%;
+  top: 55%;
+  z-index: 5;
+  animation: spin1 10s infinite linear;
+}
+.drawing4:hover {
+animation-play-state: paused;
+}
+.a1 {
+  width: 35%;
+  position: absolute;
+  left: 45%;
+  top: 75%;
+  z-index: 5;
+  animation: spin1 5s infinite linear;
+}
+.a1:hover {
+animation-play-state: paused;
+}
+.a2 {
+  width: 5%;
+  position: absolute;
+  left: 40%;
+  top: 55%;
+  z-index: 3;
+  animation: spin1 4s infinite linear;
+}
+.a2:hover {
+animation-play-state: paused;
+}
+.a3 {
+  width: 5%;
+  position: absolute;
+  left: 55%;
+  top: 55%;
+  z-index: 4;
+  animation: spin1 4s infinite linear;
+}
+.a3:hover {
+animation-play-state: paused;
+}
+.a4 {
+  width: 10%;
+  position: absolute;
+  left: 70%;
+  top: 55%;
+  z-index: 4;
+  animation: spin1 10s infinite linear;
+}
+.a4:hover {
+animation-play-state: paused;
+}
+.a5 {
+  width: 15%;
+  position: absolute;
+  left: 60%;
+  top: 65%;
+  z-index: 4;
+  animation: spin1 10s infinite linear;
+}
+.a5:hover {
+animation-play-state: paused;
+}
+.a6 {
+  width: 15%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  z-index: 4;
+  animation: spin1 2s infinite linear;
+}
+.a6:hover {
+animation-play-state: paused;
+}
+.a7 {
+  width: 15%;
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  z-index: 4;
+  animation: spin1 2s infinite linear;
+}
+.a7:hover {
+animation-play-state: paused;
+}
+.a8 {
+  width: 10%;
+  position: absolute;
+  left: 25%;
+  top: 5%;
+  z-index: 5;
+  animation: spin1 5s infinite linear;
+}
+.a8:hover {
+animation-play-state: paused;
+}
+.a9 {
+  width: 2%;
+  position: absolute;
+  left: 55%;
+  top: 5%;
+  z-index: 2;
+  animation: spin1 15s infinite linear;
+}
+.a9:hover {
+animation-play-state: paused;
+}
+.a10 {
+  width: 60%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 2;
+  animation: spin1 20s infinite linear;
+}
+.a10:hover {
+animation-play-state: paused;
+}
+.a11 {
+  width: 5%;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 5;
+  animation: spin1 20s infinite linear;
+}
+.a11:hover {
+animation-play-state: paused;
+}
+.a12 {
+  width: 5%;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  z-index: 5;
+  animation: spin1 26s infinite linear;
+}
+.a12:hover {
+animation-play-state: paused;
+}
+.a13 {
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  z-index: 5;
+  animation: spin1 20s infinite linear;
+}
+.a13:hover {
+animation-play-state: paused;
+}
+.a14 {
+  width: 5%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  z-index: 6;
+  animation: spin1 20s infinite linear;
+}
+.a14:hover {
+animation-play-state: paused;
+}
+.a15 {
+  width: 5%;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  z-index: 6;
+  animation: spin1 20s infinite linear;
+}
+.a15:hover {
+animation-play-state: paused;
+}
+.a16 {
+  width: 5%;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  z-index: 6;
+  animation: spin1 2s infinite linear;
+}
+.a16:hover {
+animation-play-state: paused;
+}
+.a17 {
+  width: 5%;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  z-index: 6;
+  animation: spin1 1s infinite linear;
+}
+.a17:hover {
+animation-play-state: paused;
+}
+.a18 {
+  width: 5%;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  z-index: 3;
+  animation: spin1 10s infinite linear;
+}
+.a18:hover {
+animation-play-state: paused;
+}
+.a19 {
+  width: 5%;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  z-index: 3;
+  animation: spin1 2s infinite linear;
+}
+.a19:hover {
+animation-play-state: paused;
+}
+.a20 {
+  width: 35%;
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  z-index: 3;
+  animation: spin1 10s infinite linear;
+}
+.a20:hover {
+animation-play-state: paused;
+}
+.a21 {
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  z-index: 3;
+  animation: spin1 7s infinite linear;
+}
+.a21:hover {
+animation-play-state: paused;
+}
+.a22 {
+  width: 5%;
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  z-index: 4;
+  animation: spin1 7s infinite linear;
+}
+.a22:hover {
+animation-play-state: paused;
+}
+.a23 {
+  width: 5%;
+  position: absolute;
+  left: 2%;
+  top: 25%;
+  z-index: 5;
+  animation: spin1 7s infinite linear;
+}
+.a23:hover {
+animation-play-state: paused;
+}
+.a24 {
+  width: 20%;
+  position: absolute;
+  left: 2%;
+  top: 75%;
+  z-index: 5;
+  animation: spin1 8s infinite linear;
+}
+.a24:hover {
+animation-play-state: paused;
+}
+.a25 {
+  width: 20%;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  z-index: 2;
+  animation: spin1 0.2s infinite linear;
+}
+.a25:hover {
+animation-play-state: paused;
+}
+.a26 {
+  width: 20%;
+  position: absolute;
+  left: 46%;
+  top: 50%;
+  z-index: 2;
+  animation: spin1 18s infinite linear;
+}
+.a26:hover {
+animation-play-state: paused;
+}
+.a27 {
+  width: 20%;
+  position: absolute;
+  left: 46%;
+  top: 40%;
+  z-index: 3;
+  animation: spin1 18s infinite linear;
+}
+.a27:hover {
+animation-play-state: paused;
+}
+.a28 {
+  width: 15%;
+  position: absolute;
+  left: -10%;
+  top: 60%;
+  z-index: 3;
+  animation: spin1 9s infinite linear;
+}
+.a28:hover {
+animation-play-state: paused;
+}
+.a29 {
+  width: 45%;
+  position: absolute;
+  left: 25%;
+  top: 85%;
+  z-index: 3;
+  animation: spin1 20s infinite linear;
+}
+.a29:hover {
+animation-play-state: paused;
+}
+.morphingcube {
+  width: 25%;
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  z-index: 2;
+  animation: spin1 20s infinite linear;
+}
+.morphingcube:hover {
+animation-play-state: paused;
+}
+.postercircle {
+  width: 25%;
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  z-index: 2;
+  animation: spin1 20s infinite linear;
+}
+.postercircle:hover {
+animation-play-state: paused;
+}
