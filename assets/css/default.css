@@ -706,10 +706,10 @@ animation-play-state: paused;
 animation-play-state: paused;
 }
 .postercircle {
-  width: 25%;
+  width: 15%;
   position: absolute;
-  left: 35%;
-  top: 40%;
+  left: 47%;
+  top: 20%;
   z-index: 2;
   animation: spin1 20s infinite linear;
 }
